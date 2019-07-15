@@ -1,0 +1,25 @@
+var foods = ["salad", "water", "fruit"]
+for food in foods{
+    print("i like \(food)")
+}
+
+
+var friends = ["Julian","Cynthia"]
+
+func isFriend(friend:String){
+    var isFriend=Bool.random()
+
+    if isFriend == true{
+    print ("\(friend) is ur friend!")}
+
+    else if isFriend == false{
+    print ("\(friend) is NOT ur friend!")
+    }
+}
+
+for friend in friends{
+isFriend(friend:friend)
+
+}
+
+isFriend(friend:"Jose")
